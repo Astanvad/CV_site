@@ -1,0 +1,239 @@
+@font-face {
+    src: url("fonts/MyriadPro-Light.otf");
+    font-family: "MyriadPro-Light";
+}
+@font-face {
+    src: url("fonts/MyriadProBold.ttf");
+    font-family: "MyriadProBold";
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+    width: 1348px;
+    margin: 0 auto;
+}
+.icothis {
+    width: 300px;
+    padding-left: 550px;
+}
+.logo {
+    border-width:20px 20px 20px 80px; border-style: solid; border-color: #cf4541;
+    position: absolute;
+    top: 100px;
+}
+.logo_inner {
+    width: 150px;
+    height: 150px;
+}
+.section_name{
+    float: left;
+    padding-top: 140px;
+    padding-left: 260px;
+    width: 350px;
+    height: 130px;
+}
+.section_name  h1 {
+    font-family: "MyriadProBold";
+    font-size: 50px;
+  }
+.section_name p {
+    font-family: "MyriadPro-Light";
+    font-size: 35px;
+    color: #ef433f;
+}
+.personal_data {
+    float: right;
+    padding-top: 140px;
+    padding-right: 100px;
+}
+.personal_data h3 {
+    padding-left: 20px;
+    background-color:  #c0c0c0;
+    font-family: "MyriadProBold";
+    font-size: 20px;
+    width: 450px;
+    height: 30px;
+}
+.personalleft {
+    float: left;
+    padding-top: 10px;
+}
+.personalleft > p {
+    font-family: "MyriadProBold";
+    font-size: 15px;
+    padding-bottom: 3px;
+}
+.personalright {
+    padding-left: 160px;
+    padding-top: 10px;
+}
+.personalright p{
+    font-family: "MyriadPro-Light";
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.about{
+    float: left;
+    padding-top: 40px;
+    padding-left: 80px;
+}
+.about h3{
+    padding-left: 20px;
+    background-color:  #c0c0c0;
+    font-family: "MyriadProBold";
+    font-size: 20px;
+    width: 560px;
+    height: 30px;
+}
+.about .textabout {
+    font-family: "MyriadProBold";
+    font-size: 20px;
+    padding-top: 10px;
+    white-space: nowrap;
+}
+.education{
+    float: right;
+    padding-top: 15px;
+    padding-right: 100px;
+    height: 265px;
+}
+.education h3{
+    padding-left: 20px;
+    background-color:  #c0c0c0;
+    font-family: "MyriadProBold";
+    font-size: 20px;
+    width: 450px;
+    height: 30px;
+}
+.education .left_col,
+.work .left_col,
+.education .cntr_col,
+.work .cntr_col{
+    float: left;
+    padding-left: 20px;
+}
+.education .cntr_col,
+.work .cntr_col {
+    font-family:  "MyriadPro-Light";
+    font-size: 23px;
+    padding-top: 15px;
+}
+.education .cntr_col p{
+    padding-bottom: 62px;
+}
+.education .right_col,
+.work .right_col{
+    padding-left: 155px;
+    padding-top: 15px;
+}
+.education .right_col .red_txt,
+.work .right_col .red_txt{
+    font-family: "MyriadPro-Light";
+    font-size: 20px;
+    color: rgb(222, 128, 125);
+}
+.education .right_col .black_txt,
+.work .right_col .black_txt{
+    font-family: "Myriad Pro";
+    font-size: 20px;
+    font-weight: bold;
+}
+.education .right_col .light_txt,
+.work .right_col .light_txt{
+    font-family: "MyriadPro-Light";
+    font-size: 20px;
+    padding-bottom: 18px;
+}
+.left_col .diamond,
+.work .diamond {
+    width: 20px;
+    height: 20px;
+    background: rgb(207, 69, 65);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+.work{
+    float: left;
+    padding-top: 40px;
+    padding-left: 80px;
+}
+.work h3{
+    padding-left: 20px;
+    background-color:  #c0c0c0;
+    font-family: "MyriadProBold";
+    font-size: 20px;
+    width: 560px;
+    height: 30px;
+}
+.work .cntr_col p{
+    padding-bottom: 137px;
+}
+.work .right_col{
+    padding-left: 220px;
+}
+.work .right_col .light_txt{
+    padding-bottom: 20px;
+}
+.skills{
+    float: right;
+    padding-top: 15px;
+    padding-right: 100px;
+}
+.skills h3{
+    padding-left: 20px;
+    background-color:  #c0c0c0;
+    font-family: "MyriadProBold";
+    font-size: 20px;
+    width: 450px;
+    height: 30px;
+}
+.skills .left_col {
+    float: left;
+    padding-left: 20px;
+}
+.skills .left_col p {
+    font-family:  "MyriadProBold";
+    font-size: 20px;
+    width: 120px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.skills .right_col{
+    float: right;
+}
+progress[value]{
+    width: 210px;
+    height: 20px;
+    background-color: red;
+    margin-bottom: 10px;
+    margin-top: 24px;
+}
+progress::-webkit-progress-bar {
+    background-color: rgb(219, 219, 219);
+}
+progress::-webkit-progress-value {
+    background-color: rgb(255, 69, 65);
+}
+.clearfix{
+    clear: both;
+}
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
+footer a{
+    height: 40px;
+    font-family: "MyriadProBold";
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 120px;
+}
